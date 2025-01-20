@@ -13,7 +13,7 @@ h1 {
 
 .crossword {
     display: grid;
-    grid-template-columns: repeat(25, 30px);
+    grid-template-columns: repeat(26, 30px);
     gap: 2px;
     justify-content: center;
     margin: 20px auto;
@@ -64,8 +64,12 @@ h1 {
     margin-bottom: 10px;
 }
 
-.clues ol {
-    padding-left: 20px;
+.clues ul{
+     list-style-type: none; 
+}
+
+.clues li {
+    line-height: 1.5;
 }
 
 button {
